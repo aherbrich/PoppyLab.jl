@@ -1,0 +1,16 @@
+name = "PoppyLab"
+uuid = "fe3b78b0-8ccf-40e8-87ae-5a0aba80eb96"
+authors = ["Alexander Herbrich <aherbrich32@gmail.com>"]
+version = "1.0.0-DEV"
+
+[deps]
+Poppy = "e75c3f9c-1f86-4fb7-8749-1cf10408e9b0"
+
+[compat]
+julia = "1.6.7"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
