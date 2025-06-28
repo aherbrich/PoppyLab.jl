@@ -1,9 +1,7 @@
 module PoppyLab
 
-using Poppy  # import the dependency
+using Poppy.PoppyCore
 
-# Your package code here
-
-export Poppy
+include("preprocessing/preprocess.jl")
 
 end
